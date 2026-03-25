@@ -1,0 +1,48 @@
+/* COLORS */
+body {
+    margin: 0;
+    background: linear-gradient(to right, #ffffff, #dfe9f3);
+}
+
+/* LAYOUT */
+.header {
+    background: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    background: gray;
+    justify-content: space-around;
+}
+
+.nav a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.content {
+    display: flex;
+}
+
+.sidebar {
+    flex: 1;
+    background: #ccc;
+    padding: 10px;
+}
+
+.main {
+    flex: 3;
+    padding: 10px;
+}
+
+/* BORDER IMAGE */
+.border-box {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url('https://via.placeholder.com/150') 30 round;
+    margin-top: 20px;
+}
